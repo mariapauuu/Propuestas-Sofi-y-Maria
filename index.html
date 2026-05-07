@@ -188,6 +188,36 @@
     margin: 0;
   }
 
+  /* PILLAR 5 */
+  .pillar-5 .pillar-number { background: #E8F5F0; color: #1A5C45; }
+  .pillar-5 .pillar-tag    { color: #2A9D6E; }
+  .pillar-5 .toggle-icon   { color: #2A9D6E; }
+  .pillar-5 .pillar-title  { color: #1A5C45; }
+  .pillar-5 .prop-dot      { background: #2A9D6E; }
+  .pillar-5 .prop-q        { color: #1A5C45; border-left-color: #2A9D6E; }
+
+  .pillar-5-intro {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #1A5C45;
+    background: #E8F5F0;
+    border-left: 3px solid #2A9D6E;
+    padding: 0.9rem 1.1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1px;
+  }
+
+  .prop-credit {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: #2A9D6E;
+    margin-top: 0.35rem;
+    margin-left: 1.5rem;
+  }
+
   /* PILLARS */
   .pillars {
     max-width: 860px;
@@ -509,7 +539,7 @@
 
   <p class="hero-label">Candidatas — Consejo Superior U.EIA</p>
   <h1 class="hero-title">Sofi<span class="hero-amp">&amp;</span><br>Maria</h1>
-  <p class="hero-sub">14 propuestas en 4 pilares para que nuestra Universidad EIA funcione mejor para todos</p>
+  <p class="hero-sub">14 propuestas + 3 que han venido de sus ideas durante campaña, distribuidas en 5 pilares para que nuestra Universidad EIA funcione mejor para todos</p>
   <span class="hero-badge">Representación Estudiantil</span>
 </section>
 
@@ -520,14 +550,17 @@
     <span>Bienestar Real</span><span class="mdot"></span>
     <span>Comunidad</span><span class="mdot"></span>
     <span>Transparencia</span><span class="mdot"></span>
+    <span>Escucha Activa</span><span class="mdot"></span>
     <span>Experiencia sin Fricción</span><span class="mdot"></span>
     <span>Bienestar Real</span><span class="mdot"></span>
     <span>Comunidad</span><span class="mdot"></span>
     <span>Transparencia</span><span class="mdot"></span>
+    <span>Escucha Activa</span><span class="mdot"></span>
     <span>Experiencia sin Fricción</span><span class="mdot"></span>
     <span>Bienestar Real</span><span class="mdot"></span>
     <span>Comunidad</span><span class="mdot"></span>
     <span>Transparencia</span><span class="mdot"></span>
+    <span>Escucha Activa</span><span class="mdot"></span>
   </div>
 </div>
 
@@ -716,6 +749,51 @@
             <p class="prop-text">Reorganizar, comunicar y ampliar los convenios estudiantiles para que sean útiles, visibles y alineados con las verdaderas necesidades de los estudiantes.</p>
           </div>
           <p class="prop-q">¿Realmente sabes qué beneficios tienes como estudiante y usas alguno con frecuencia?</p>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <!-- PILAR 5 -->
+  <article class="pillar pillar-5">
+    <div class="pillar-header" onclick="togglePillar(this.closest('.pillar'))">
+      <div class="pillar-number">05</div>
+      <div class="pillar-header-content">
+        <p class="pillar-tag">Pilar 5</p>
+        <h2 class="pillar-title">Escucha activa</h2>
+        <p class="pillar-subtitle">Construyendo de su mano — 3 propuestas</p>
+      </div>
+      <div class="pillar-toggle"><div class="toggle-icon">+</div></div>
+    </div>
+    <div class="pillar-body">
+      <p class="pillar-5-intro">Porque muchas de las mejores ideas no nacen desde una candidatura, sino desde las conversaciones con ustedes. Estas son algunas propuestas y necesidades que hemos escuchado durante la campaña y que creemos demasiado importantes para seguir construyendo una universidad que funcione mejor para todos.</p>
+      <div class="proposals-list">
+
+        <div class="proposal">
+          <div class="prop-header"><div class="prop-dot"></div>
+            <p class="prop-text">Revisar el desbalance entre los horarios de inicio de clases y el funcionamiento del sistema de transporte para mejorar la experiencia universitaria de los estudiantes de Medicina.</p>
+          </div>
+          <p class="prop-q">¿No sienten que muchas veces los horarios y rutas de transporte no responden realmente a la dinámica que vive Medicina día a día?</p>
+          <p class="prop-credit">Idea vociferada por Sofía Echeverri, estudiante de Medicina</p>
+          <div class="prop-divider"></div>
+        </div>
+
+        <div class="proposal">
+          <div class="prop-header"><div class="prop-dot"></div>
+            <p class="prop-text">Promover una cultura consciente y respetuosa en la biblioteca mediante ideas de zonificación que permitan equilibrar espacios de silencio y espacios de trabajo colaborativo.</p>
+          </div>
+          <p class="prop-q">¿No les ha pasado que a veces necesitan silencio absoluto para concentrarse y otras veces un espacio donde trabajar en grupo sin incomodar a los demás?</p>
+          <p class="prop-credit">Idea vociferada por Martín Melguizo, estudiante de Ingeniería Mecatrónica</p>
+          <div class="prop-divider"></div>
+        </div>
+
+        <div class="proposal">
+          <div class="prop-header"><div class="prop-dot"></div>
+            <p class="prop-text">Fortalecer el servicio APH de la universidad para garantizar una atención más rápida, eficiente y acorde con la urgencia de las emergencias.</p>
+          </div>
+          <p class="prop-q">¿No creen que en situaciones de emergencia la atención debería sentirse realmente inmediata y preparada?</p>
+          <p class="prop-credit">Idea vociferada por Paulina Medina, estudiante de Ingeniería Biomédica</p>
         </div>
 
       </div>
